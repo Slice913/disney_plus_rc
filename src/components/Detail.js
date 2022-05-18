@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 function Detail() {
   return (
+      // *  TS: 4:52:54
     <Container>
         <Background>
             <img src="https://images.trutv.com/tru/$dyna_params/https%3A%2F%2Fi.cdn.trutv.com%2Fassets%2Ftru%2Fprod%2Fimages%2F2021%2F01%2FRogueOne-AStarWarsStory-1600x900.jpg" />
@@ -12,21 +13,26 @@ function Detail() {
         </ImgTitle>
         <Controls>
             <PlayButton>
-                <img src="/DisImages/play-icon-black.png" />
+                <img src="/DisImages/play-icon-black.png" alt=" "/>
                 <span>PLAY</span>
             </PlayButton>
             <TrailerButton>
-                <img src="/DisImages/play-icon-white.png" />
+                <img src="/DisImages/play-icon-white.png" alt=" "/>
                 <span>Trailer</span>
             </TrailerButton>
             <AddButton>
                 <span>+</span>
             </AddButton>
             <GroupWatchButton>
-                <img src="/DisImages/group-icon.png" />
+                <img src="/DisImages/group-icon.png" alt=" "/>
             </GroupWatchButton>
-
         </Controls>
+        <SubTitle>
+            2016 · 2hrs · Family, Fantasy, Kids
+        </SubTitle>
+        <Description>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        </Description>
     </Container>
   )
 }
@@ -121,4 +127,19 @@ const AddButton = styled.button`
 
 `
 
-const GroupWatchButton = styled(AddButton)``
+const GroupWatchButton = styled(AddButton)`
+    background: rgb(0, 0, 0);
+`
+const SubTitle = styled.div`
+    color: rgb(249, 249, 249);
+    font-size: 15px;
+    min-height: 20px;  
+    margin-top: 26px;
+`
+const Description = styled.div`
+    line-height: 1.4;
+    font-size: 20px;
+    margin-top: 16px;
+    color: rgb(249, 249, 249);
+
+`

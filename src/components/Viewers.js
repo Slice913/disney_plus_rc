@@ -7,19 +7,19 @@ function Viewers() {
   return (
          <Container>
              <Wrap>
-                <img src="/DisImages/viewers-disney.png"/>
+                <img src="/DisImages/viewers-disney.png" alt=" "/>
              </Wrap>
              <Wrap>
-                <img src="/DisImages/viewers-pixar.png"/>
+                <img src="/DisImages/viewers-pixar.png" alt=" "/>
              </Wrap>
              <Wrap>
-                <img src="/DisImages/viewers-marvel.png"/>
+                <img src="/DisImages/viewers-marvel.png" alt=" "/>
              </Wrap>
              <Wrap>
-                <img src="/DisImages/viewers-starwars.png"/>
+                <img src="/DisImages/viewers-starwars.png" alt=" "/>
              </Wrap>
              <Wrap>
-                <img src="/DisImages/viewers-national.png"/>
+                <img src="/DisImages/viewers-national.png" alt=" "/>
              </Wrap>
         </Container>
   )
